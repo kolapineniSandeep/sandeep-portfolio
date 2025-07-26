@@ -19,6 +19,8 @@ export const Portfolio = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
+
+        
         <div className="mb-3 po_items_ho">
           {dataportfolio.map((data, i) => {
             return (

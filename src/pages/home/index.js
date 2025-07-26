@@ -59,6 +59,31 @@ export const Home = () => {
                   />
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
+
+                <div className="project-highlight mb-4">
+                  <h3 className="highlight-title mb-2">Featured Project: Kubear</h3>
+                 <p className="project-quote mb-3">
+                  <em>
+                    "An AI-powered financial advisor that helps you optimize loan payments, 
+                    save on interest, and make smarter financial decisions with personalized insights."
+                      <a
+                        href="https://kubear.netlify.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text_2"
+                      >
+                        <div className="ac_btn btn">
+                          Visit Kubear (beta)
+                          <div className="ring one"></div>
+                          <div className="ring two"></div>
+                          <div className="ring three"></div>
+                        </div>
+                      </a>
+                  </em>
+                  </p>
+                 
+                </div>
+
                 <div className="intro_btn-action pb-5">
                   <Link to="/portfolio" className="text_2">
                     <div id="button_p" className="ac_btn btn">
@@ -68,6 +93,7 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
+                  
                   <Link to="/contact">
                     <div id="button_h" className="ac_btn btn">
                       Contact Me
@@ -77,6 +103,8 @@ export const Home = () => {
                     </div>
                   </Link>
                 </div>
+                
+
               </div>
             </div>
           </div>

@@ -63,7 +63,10 @@ const services = [
 
 ];
 
-const dataportfolio = [{
+const dataportfolio = [
+   
+    {
+
     img: "https://github.com/kolapineniSandeep/AI-healthcare-chatbot/blob/main/demo1.png?raw=true",
   
     description: "AI chatbot for healthcare is a powerful tool that can assist patients with booking and managing appointments, detecting diseases based on symptoms.",

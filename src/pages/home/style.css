@@ -49,6 +49,28 @@ section {
     width: 50%;
 }
 
+.project-highlight {
+    background: rgba(var(--primary-rgb), 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+    margin: 20px 0;
+}
+
+.highlight-title {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.highlight-description {
+    color: var(--text-color);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+
 @media (max-width:991.98px) {
     .intro_sec .text,
     .intro_sec .h_bg-image {
